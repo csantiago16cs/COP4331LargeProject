@@ -14,15 +14,14 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import LoginPage from './src/pages/LoginPage';
 import HomePage from './src/pages/HomePage';
 
 const App: () => React$Node = () => {
   return (
-    <>
-      <View style={{flex: 1, justifyContent: "center"}}>
-        <HomePage />
-      </View>
-    </>
+        <View>
+          <LoginPage />
+        </View>
   );
 };
 
