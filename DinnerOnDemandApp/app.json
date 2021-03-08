@@ -1,4 +1,12 @@
 {
-  "name": "DinnerOnDemandApp",
-  "displayName": "DinnerOnDemandApp"
+  "name": "dinner-on-demand-app",
+  "displayName": "dinner-on-demand-app",
+  "expo": {
+    "name": "dinner-on-demand-app",
+    "slug": "dinner-on-demand-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
 }
