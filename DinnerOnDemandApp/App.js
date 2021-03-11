@@ -1,3 +1,9 @@
+/*
+Things to remember
+//npm start //npx react-native run-android
+//ctrl j hides terminal
+*/
+
 import React from 'react';
 import {
   SafeAreaView,
@@ -20,7 +26,7 @@ import HomePage from './src/pages/HomePage';
 const App: () => React$Node = () => {
   return (
         <View>
-          <HomePage />
+          <LoginPage />
         </View>
   );
 };
