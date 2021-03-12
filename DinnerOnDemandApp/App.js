@@ -25,7 +25,7 @@ import HomePage from './src/pages/HomePage';
 
 const App: () => React$Node = () => {
   return (
-        <View>
+        <View style = {styles.body}>
           <LoginPage />
         </View>
   );
@@ -40,7 +40,8 @@ const styles = StyleSheet.create({
     right: 0,
   },
   body: {
-    backgroundColor: Colors.white,
+    backgroundColor: 'grey',
+    flex: 1,
   },
   sectionContainer: {
     marginTop: 32,
